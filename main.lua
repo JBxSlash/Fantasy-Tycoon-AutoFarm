@@ -73,7 +73,7 @@ end
 
 
 local tmlp = tick()
-while wait(5) and _G.Farm == trdue do
+while wait(5) and _G.Farm == true do
 local plot = nil
 local startCF = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame
 for _, ww in pairs(game:GetService("Workspace").Tycoons:GetChildren()) do
